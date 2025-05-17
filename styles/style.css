@@ -1,0 +1,87 @@
+/* Page container */
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* Center elements */
+nav a,
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main section {
+  text-align: center;
+}
+
+/* Background block */
+#background {
+  height: 725px;
+  background-color: #e2e2e2;
+}
+
+/* Background colors */
+body {
+  background-color: #fcfbfb;
+}
+header {
+  background-color: rgba(20, 30, 13, 0.7);
+}
+nav a:hover {
+  background-color: black;
+}
+.book, .join {
+  background-color: #d9c2a3;
+}
+.book:hover, .join:hover {
+  background-color: #b8860b;
+}
+.msg {
+  background-color: #6f7364;
+}
+footer {
+  background-color: #444;
+}
+
+/* Text color */
+nav a,
+.home-title,
+h4,
+.book, .join,
+.msg h2,
+.msg p,
+footer,
+footer a {
+  color: #fff;
+}
+nav a:hover,
+footer a:hover {
+  color: #d9c2a3;
+}
+
+/* Images */
+.logo {
+  width: 80px;
+}
+.icon {
+  width: 80px;
+}
+#hero-img {
+  width: 100%;
+}
+
+/* Text formatting */
+nav a,
+.book, .join,
+footer a {
+  text-decoration: none;
+}
+
+/* Footer text size */
+footer p {
+  font-size: 1.2em;
+}
+
+/* Underline on hover */
+footer p a:hover {
+  text-decoration: underline;
+}
