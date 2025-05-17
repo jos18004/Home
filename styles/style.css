@@ -38,9 +38,11 @@ nav a:hover {
 }
 .msg {
   background-color: #777b69;
+  color: white;
 }
 footer {
   background-color: #444;
+  color: white;
 }
 
 /* Text color */
