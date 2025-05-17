@@ -17,7 +17,7 @@ main section {
 /* Background block */
 #background {
   height: 725px;
-  background-color: #e2e2e2;
+  background-color: #bb8181;
 }
 
 /* Background colors */
@@ -75,6 +75,7 @@ nav a,
 .book, .join,
 footer a {
   text-decoration: none;
+  color: #d9c2a3;
 }
 
 /* Footer text size */
