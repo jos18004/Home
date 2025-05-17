@@ -17,7 +17,7 @@ main section {
 /* Background block */
 #background {
   height: 725px;
-  background-color: #bb8e8e;
+  background-color: #d6a274;
 }
 
 /* Background colors */
@@ -37,7 +37,7 @@ nav a:hover {
   background-color: #b8860b;
 }
 .msg {
-  background-color: #6f7364;
+  background-color: #777b69;
 }
 footer {
   background-color: #444;
