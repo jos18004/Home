@@ -52,7 +52,7 @@ h4,
 .msg p,
 footer,
 footer a {
-  color: #181818;
+  color: #b4b3b3;
 }
 nav a:hover,
 footer a:hover {
@@ -75,7 +75,7 @@ nav a,
 .book, .join,
 footer a {
   text-decoration: none;
-  color: #0e0e0e;
+  color: #f6f0f0;
 }
 
 /* Footer text size */
