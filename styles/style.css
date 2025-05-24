@@ -2,90 +2,165 @@
 #content {
   max-width: 1600px;
   margin: 0 auto;
+  font-family: 'Georgia', serif;
 }
 
-/* Center elements */
-nav a,
-#hero-msg h1,
-#hero-msg h4,
-.button-box,
+/* Global text settings */
+body {
+  background-color: #fcfbfb;
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background-color: rgba(20, 30, 13, 0.7);
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f6f0f0;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 35px;
+}
+
+nav a:hover {
+  background-color: black;
+  color: #d9c2a3;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+/* Hero Section */
+#hero-msg h1 {
+  font-size: 2.5em;
+  margin-top: 20px;
+  margin-left: 35%;
+  font-weight: bold;
+  font-family: cursive;
+  
+}
+
+#hero-msg h4 {
+  font-size: 1.4em;
+  margin: 10px 0;
+  margin-left: 35%;
+  font-style: italic;
+}
+
+.button-box {
+  margin: 20px 0;
+  margin-left: 43%;
+}
+
+.book, .join {
+  background-color: #d9c2a3;
+  padding: 12px 24px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  display: inline-block;
+  transition: background-color 0.3s;
+  font-size: 1em;
+}
+
+.book:hover, .join:hover {
+  background-color: #b8860b;
+  color: white;
+}
+
+/* Card Sections */
 main section {
   text-align: center;
-  color: #444;
+  padding: 20px;
+  margin: 15px;
+  border: 2px solid #572a2a;
+  border-radius: 8px;
+  
 }
 
-/* Background block */
+.card-img {
+  width: 20%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.icon {
+  width: 60px;
+  margin-top: 10px;
+}
+
+/* Background Section */
 #background {
   height: 725px;
   background-color: #d6a274;
+  margin-top: 30px;
 }
 
-/* Background colors */
-body {
-  background-color: #fcfbfb;
+/* Mountains image */
+.mountains {
+  width: 50%;
+  height: auto;
+  display: block;
 }
-header {
-  background-color: rgba(20, 30, 13, 0.7);
-}
-nav a:hover {
-  background-color: black;
-}
-.book, .join {
-  background-color: #d9c2a3;
-}
-.book:hover, .join:hover {
-  background-color: #b8860b;
-}
+
+/* Message Section */
 .msg {
   background-color: #777b69;
   color: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  margin: 30px;
 }
+
+.msg h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.msg p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+/* Footer */
 footer {
   background-color: #444;
   color: white;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 1em;
 }
 
-/* Text color */
-nav a,
-.home-title,
-h4,
-.book, .join,
-.msg h2,
-.msg p,
-footer,
-footer a {
-  color: #000000;
+footer p {
+  font-size: 1.2em;
+  margin: 10px 0;
 }
-nav a:hover,
+
+footer a {
+  color: #f6f0f0;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
 footer a:hover {
+  text-decoration: underline;
   color: #d9c2a3;
 }
 
-/* Images */
+/* Logo */
 .logo {
   width: 80px;
-}
-.icon {
-  width: 80px;
+  padding-top: 5px;
 }
 #hero-img {
   width: 100%;
-}
-
-/* Text formatting */
-nav a,
-.book, .join,
-footer a {
-  text-decoration: none;
-  color: #f6f0f0;
-}
-
-/* Footer text size */
-footer p {
-  font-size: 1.2em;
-}
-
-/* Underline on hover */
-footer p a:hover {
-  text-decoration: underline;
+  .home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
 }
