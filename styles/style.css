@@ -160,7 +160,8 @@ footer a:hover {
 }
 #hero-img {
   width: 100%;
-  .home-title {
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
+}
+.home-title {
+  font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+  font-size: 2em;
 }
